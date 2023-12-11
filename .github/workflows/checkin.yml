@@ -1,7 +1,7 @@
 name: checkin
 on:
   schedule:
-    - cron: "57 19 * * *"
+    - cron: "02 20 * * *"
 env:
   TZ: Asia/Shanghai
   
