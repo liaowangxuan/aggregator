@@ -2,7 +2,9 @@ name: checkin
 on:
   schedule:
     - cron: "57 19 * * *"
-
+env:
+  TZ: Asia/Shanghai
+  
 jobs:
   sync_with_upstream:
     runs-on: ubuntu-latest
